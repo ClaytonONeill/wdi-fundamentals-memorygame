@@ -1,28 +1,46 @@
 body	{
 	text-align: center;
-	text-transform: uppercase;;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+header	{
+	background-color: #F15831;
+	color: #FFFFFF;
+	padding: 30px 20px;
 }
 
 h1	{
 	font-family: "Raleway", sans-serif;
-	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 45px;
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;
+}
+
+nav	{
+	background-color: #00A6B3;
+	padding: 20px 0;
 }
 
 a {
 	font-family: "Raleway", sans-serif;
-	color: #F15B31;
 	letter-spacing: 1PX;
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 18px;
+	margin: 0px 20px 0px 20px;
+	color: #FFFFFF;
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
 }
 
 h2	{
 	font-family: "Raleway", serif;
-	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
@@ -34,6 +52,6 @@ p	{
 	font-size: 18px;
 }
 
-div	{
-	padding: 35px;
+img	{
+	margin: 40px 8px 0px 8px;
 }
