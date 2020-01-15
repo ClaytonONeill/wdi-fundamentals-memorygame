@@ -32,6 +32,12 @@ a {
 	font-size: 18px;
 	margin: 0px 20px 0px 20px;
 	color: #FFFFFF;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover	{
+	border-bottom: 2px solid white;
+	-webkit-transition: .4s;
 }
 
 main {
@@ -54,4 +60,37 @@ p	{
 
 img	{
 	margin: 40px 8px 0px 8px;
+}
+
+footer	{
+	text-transform: uppercase;
+	padding: 0px 20px;
+	background-color: #0D2C40;
+	color: #FFFFFF;
+	font-size: 14px;
+	letter-spacing: .08cm;
+	font-weight: 500;
+	font-family: "Raleway", sans-serif;
+}
+
+.copyright	{
+	float: left;
+}
+
+.message	{
+	float: right;
+}
+
+.clearfix:after	{
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.name	{
+	color: #F15B31;
+	font-weight: 700;
 }
