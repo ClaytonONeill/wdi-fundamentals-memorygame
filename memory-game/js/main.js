@@ -28,6 +28,7 @@ let cardsInPlay = [];
 
 
 function createBoard()	{
+	
 	for (let i = 0; i < cards.length; i++)	{
 			
 	const cardElement = document.createElement('img');	 
@@ -66,23 +67,5 @@ function flipCard()	{
 }	
 
 createBoard();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
